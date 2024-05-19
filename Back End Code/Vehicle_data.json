@@ -1,0 +1,27 @@
+{
+  "scenarios": [
+    {
+      "id": 2,
+      "name": "my scenario",
+      "time": "10s"
+    },
+    {
+      "id": 3,
+      "name": "Test Scenario",
+      "time": "10s"
+    }
+  ],
+  "vehicles": [
+    {
+      "id": 1,
+      "name": "bus",
+      "positionX": "500",
+      "positionY": "499",
+      "speed": "3",
+      "direction": "Towards",
+      "scenarios_id": 2
+    }
+  ],
+  "nextScenarioId": 3,
+  "nextVehicleId": 10
+}
